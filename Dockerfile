@@ -8,4 +8,4 @@ RUN apt-get -qy install python-pip python-dev git
 RUN pip install PyYAML jinja2 paramiko
 
 # Install ansible
-RUN pip install ansible==1.5.4
+RUN pip install ansible==1.6.2
